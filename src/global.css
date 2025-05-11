@@ -4,8 +4,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-primary);
 }
 
-body {
-  font-family: 'Inter', sans-serif;
+header span{
+  font-family: var(--font-secondary);
+}
+
+@theme {
+  --color-zinc-700: #2B3031;
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
 }

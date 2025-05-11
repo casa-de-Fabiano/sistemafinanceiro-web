@@ -1,3 +1,7 @@
 export function Revenues() {
-  return <h1 className="text-2xl font-bold">Receitas</h1>
+  return (
+    <div className="!ml-[59px]">
+      <h1 className="text-2xl font-bold">Receitas</h1>
+    </div>
+  )
 }

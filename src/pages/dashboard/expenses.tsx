@@ -1,3 +1,7 @@
 export function Expenses() {
-  return <h1 className="text-2xl font-bold">Despesas</h1>
+  return (
+    <div className="!ml-[59px]">
+      <h1 className="text-2xl font-bold">Despesas</h1>
+    </div>
+  )
 }

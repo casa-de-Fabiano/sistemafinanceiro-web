@@ -16,7 +16,9 @@ export function Layout() {
             end
             className={({ isActive }) =>
               `flex items-center h-[60px] !px-4 !py-2 gap-2 hover:bg-[#3F4647] ${
-                isActive ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none' : 'text-zinc-300'
+                isActive
+                  ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none'
+                  : 'text-zinc-300'
               }`
             }
           >
@@ -28,7 +30,9 @@ export function Layout() {
             to="/expenses"
             className={({ isActive }) =>
               `flex items-center h-[60px] !px-4 !py-2 gap-2 hover:bg-[#3F4647] ${
-                isActive ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none' : 'text-zinc-300'
+                isActive
+                  ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none'
+                  : 'text-zinc-300'
               }`
             }
           >
@@ -40,7 +44,9 @@ export function Layout() {
             to="/revenues"
             className={({ isActive }) =>
               `flex items-center h-[60px] !px-4 !py-2 gap-2 hover:bg-[#3F4647] ${
-                isActive ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none' : 'text-zinc-300'
+                isActive
+                  ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none'
+                  : 'text-zinc-300'
               }`
             }
           >
@@ -52,7 +58,9 @@ export function Layout() {
             to="/transfers"
             className={({ isActive }) =>
               `flex items-center h-[60px] !px-4 !py-2 gap-2 hover:bg-[#3F4647] ${
-                isActive ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none' : 'text-zinc-300'
+                isActive
+                  ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none'
+                  : 'text-zinc-300'
               }`
             }
           >
@@ -64,7 +72,9 @@ export function Layout() {
             to="/reports"
             className={({ isActive }) =>
               `flex items-center h-[60px] !px-4 !py-2 gap-2 hover:bg-[#3F4647] ${
-                isActive ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none' : 'text-zinc-300'
+                isActive
+                  ? 'bg-[#3F4647] text-white border-l-2 border-l-white leading-none'
+                  : 'text-zinc-300'
               }`
             }
           >

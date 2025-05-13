@@ -2,7 +2,7 @@ import { ChevronDown } from 'lucide-react'
 
 export function DayMonth() {
   return (
-    <div className="text-[#2E3239] text-2xl !ml-[59px] !mt-[77px]">
+    <div className="text-[#5D636B] text-2xl !ml-[59px] !mt-[77px]">
       <h1 className="font-bold !pb-[20px]">Referência</h1>
 
       <div className="w-[331px] h-[72px] !mb-[50px] mt-2 flex items-center justify-between !px-4 rounded-2xl border border-gray-200 shadow-sm bg-white">
